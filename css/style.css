@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: limegreen;
+    font-family: "Courier New", monospace;
+}
+
+.main {
+    margin-left: 200px;
+}
+
+.navbar {
+    /*position: sticky;*/
+
+    position: fixed;
+    /*float: left;*/
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+}
+
+a:link {
+    color: limegreen;
+}
+
+a:visited {
+    color: limegreen;
+}
